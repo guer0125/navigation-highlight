@@ -1,14 +1,12 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia, serif;
+  padding: 0;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-html {
-  font-family: Georgia, serif;
-  padding: 0;
 }
 
 body {
@@ -33,19 +31,21 @@ h1 {
 
 h2 {
   font-size: 1.875rem;
-  margin: .3em;
-  padding: 0;
+  margin: 0;
+  padding: .75em 0;
 }
 
 header {
   background-color: #ffe500;
   padding: 0;
-  margin: 0;
+  margin-bottom: .3em;
 }
 
 div {
-  margin: .75em
+  margin: 0;
+  padding: 0 .75em;
 }
+
 .nav {
   margin: 0;
   padding: 0;
@@ -55,16 +55,16 @@ div {
 }
 
 p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #2f2d13;
-  line-height: 1.5;
 }
 
 footer {
   font-size: .75rem;
   background-color: #ffe500;
-  padding: .75em;
+  padding: 1em;
   text-align: center;
+  font-family: Georgia, regular;
 }
 
 .nav li {
@@ -82,7 +82,7 @@ footer {
 }
 
 .nav a:hover {
-  background-color: #b20953;
+  background-color: #cc1465;
 }
 
 .nav .current {
@@ -91,4 +91,5 @@ footer {
 
 img {
   width: 100%;
+  display: block;
 }
