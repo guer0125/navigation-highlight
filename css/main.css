@@ -15,7 +15,7 @@ body {
 }
 
 h1, h2 {
-  font-family: Sigmar One, cursive;
+  font-family: 'Sigmar One', serif;
   color: #b20953;
   padding: 0;
   margin: 0;
@@ -65,7 +65,7 @@ p {
 }
 
 footer {
-  font-size: .90rem;
+  font-size: .75rem;
   background-color: #ffe500;
   padding: 1em;
   text-align: center;
