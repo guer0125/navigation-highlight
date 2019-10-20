@@ -59,12 +59,17 @@ p {
   color: #2f2d13;
 }
 
+.not {
+  margin: 0;
+  margin-bottom: .3em;
+}
+
 footer {
-  font-size: .75rem;
+  font-size: .90rem;
   background-color: #ffe500;
   padding: 1em;
   text-align: center;
-  font-family: Georgia, regular;
+  font-family: Georgia;
 }
 
 .nav li {
@@ -92,4 +97,5 @@ footer {
 img {
   width: 100%;
   display: block;
+  margin: 0;
 }
